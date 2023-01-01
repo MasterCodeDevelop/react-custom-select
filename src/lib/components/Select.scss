@@ -1,0 +1,17 @@
+.custom-select {
+    position: relative;
+    font-family: Arial;
+    .select-items div:hover {
+        background-color: rgba(168, 155, 155, 0.677)   
+    }
+    select {
+        display: none; /*hide original SELECT element:*/
+    }
+    .select-selected, .select-items {
+        border: 1px solid #000;
+    }
+    .select-hide {
+        display: none;
+    }
+}
+  
